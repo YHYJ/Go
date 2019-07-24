@@ -1,3 +1,5 @@
+/* 康威的生命游戏 */
+
 package main
 
 import (

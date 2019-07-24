@@ -1,3 +1,5 @@
+/* 并发pi计算 */
+
 // Cocurrent computation of pi.
 // See https://goo.gl/la6Kli
 //

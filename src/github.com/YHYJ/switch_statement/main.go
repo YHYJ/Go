@@ -1,3 +1,5 @@
+/* 条件语句 - switch */
+
 package main
 
 import (

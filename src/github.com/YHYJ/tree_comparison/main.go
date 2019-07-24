@@ -1,3 +1,5 @@
+/* 二叉树比较 */
+
 // Go's concurrency primitives make it easy to
 // express concurrent concepts, such as
 // this binary tree comparison.

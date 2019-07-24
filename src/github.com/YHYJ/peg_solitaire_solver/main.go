@@ -1,3 +1,5 @@
+/* 孔明棋求解器 */
+
 // This program solves the (English) peg solitaire board game.
 
 // The board must be surrounded by 2 illegal fields

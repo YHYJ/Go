@@ -1,3 +1,5 @@
+/* 并发质数筛 */
+
 // A concurrent prime sieve.
 
 package main

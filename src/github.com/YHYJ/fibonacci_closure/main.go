@@ -1,10 +1,12 @@
+/* 斐波纳契闭包 */
+
 package main
 
 import (
 	"fmt"
 )
 
-// fib return a runction that returns successive Fibonacci numbers.
+// fib函数的返回值是一个函数func，func函数返回连续的斐波纳契数
 func fib() func() int {
 	a, b := 0, 1
 	return func() int {
@@ -15,6 +17,5 @@ func fib() func() int {
 
 func main() {
 	f := fib()
-	// Function calls are evaluated left-to-right.
 	fmt.Println(f(), f(), f(), f(), f(), f())
 }
