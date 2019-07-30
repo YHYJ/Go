@@ -1,2 +1,2 @@
-# My-golang
+# Go-learn
 Go basics
