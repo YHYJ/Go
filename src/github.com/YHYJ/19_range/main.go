@@ -19,7 +19,7 @@ func main() {
 		pov[i] = 1 << uint(i)
 	}
 	fmt.Println(pov)
-	for k := range pov { // 只取`slice`的key
+	for k, _ := range pov { // 只取`slice`的key
 		fmt.Printf("key = %d\n", k)
 	}
 	for _, v := range pov { // 只取`slice`的value
