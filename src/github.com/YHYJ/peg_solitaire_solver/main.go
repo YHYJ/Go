@@ -1,4 +1,9 @@
-/* 孔明棋求解器 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:41:20 */
+
+// Description: 孔明棋求解器
 
 // This program solves the (English) peg solitaire board game.
 
@@ -11,6 +16,7 @@ package main
 
 import "fmt"
 
+// N 常量
 const N int = 11 + 1 // length of a row (+1 for \n)
 
 var board = []rune(

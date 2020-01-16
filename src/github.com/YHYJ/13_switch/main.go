@@ -1,4 +1,9 @@
-/* `switch`条件语句 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:14:10 */
+
+// Description: `switch`条件语句
 // go的`switch`语句之运行第一个匹配的`case`，因为go自动在每个`case`后面隐式添加了`break`语句
 // 除非以`fallthrough`语句结束，否则分支会自动终止
 // go的`switch`的`case`无需为常量，且取值不必为整数
@@ -13,7 +18,7 @@ import (
 	"time"
 )
 
-func base_switch() {
+func baseSwitch() {
 	// 只要匹配到一个case就不再执行后面的case包括default
 	// default用来应对所有case都不匹配的情况
 	fmt.Println("Go runs on: ")
@@ -27,7 +32,7 @@ func base_switch() {
 	}
 }
 
-func switch_with_no_condition() {
+func switchWithNoCondition() {
 	// 没有条件的`switch` == `switch true`
 	t := time.Now()
 	switch {
@@ -40,7 +45,7 @@ func switch_with_no_condition() {
 	}
 }
 
-func type_switch() {
+func typeSwitch() {
 	// 根据变量的数据类型执行相应的动作
 	var x interface{}
 	x = 1.2
@@ -58,7 +63,7 @@ func type_switch() {
 }
 
 func main() {
-	base_switch()
-	switch_with_no_condition()
-	type_switch()
+	baseSwitch()
+	switchWithNoCondition()
+	typeSwitch()
 }

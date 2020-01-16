@@ -1,4 +1,9 @@
-/* 并发质数筛 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:35:56 */
+
+// Description: 并发质数筛
 
 // A concurrent prime sieve.
 
@@ -6,6 +11,7 @@ package main
 
 import "fmt"
 
+// Generate 函数
 // Send the sequence 2, 3, 4, ... to channel 'ch'.
 func Generate(ch chan<- int) {
 	for i := 2; ; i++ {
@@ -13,6 +19,7 @@ func Generate(ch chan<- int) {
 	}
 }
 
+// Filter 函数
 // Copy the values from channel 'in' to channel 'out',
 // removing those divisible by 'prime'.
 func Filter(in <-chan int, out chan<- int, prime int) {

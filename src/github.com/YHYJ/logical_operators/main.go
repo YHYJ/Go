@@ -1,4 +1,9 @@
-/* 逻辑运算符 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:40:07 */
+
+// Description: 逻辑运算符
 
 package main
 

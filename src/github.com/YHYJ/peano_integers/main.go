@@ -1,4 +1,9 @@
-/* 皮亚诺整数 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:40:41 */
+
+// Description: 皮亚诺整数
 
 // Peano integers are represented by a linked
 // list whose nodes contain no data

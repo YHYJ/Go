@@ -1,4 +1,9 @@
-/* for循环语句 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:01:53 */
+
+// Description: for循环语句
 // go只有一种循环结构：`for`循环
 // go中的for集合了for和while的功能
 
@@ -10,7 +15,7 @@ import (
 )
 
 // 基本的`for`循环
-func for_1() int {
+func for1() int {
 	sum := 0
 	for i := 0; i < 10; i++ {
 		sum += i
@@ -19,7 +24,7 @@ func for_1() int {
 }
 
 // 前置和后置语句为空的`for`循环
-func for_2() int {
+func for2() int {
 	sun := 1
 	for sun < 1000 {
 		sun += sun
@@ -28,7 +33,7 @@ func for_2() int {
 }
 
 // 不带循环条件的`for`是一个死循环
-func for_3() {
+func for3() {
 	for {
 		fmt.Println("Loop...")
 		time.Sleep(time.Duration(3) * time.Second)
@@ -38,8 +43,8 @@ func for_3() {
 }
 
 func main() {
-	sum := for_1()
-	sun := for_2()
+	sum := for1()
+	sun := for2()
 	fmt.Printf("sum = %v\nsun = %v\n", sum, sun)
-	for_3()
+	for3()
 }

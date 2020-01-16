@@ -1,4 +1,9 @@
-/* 零值 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 11:14:59 */
+
+// Description: 零值
 // 变量在定义时没有明确的初始化的话会被赋值为对应的'零值'
 // 数值类型的零值为0
 // 布尔类型的零值为false

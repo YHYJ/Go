@@ -1,4 +1,9 @@
-/* map */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:22:57 */
+
+// Description: map
 // `map`将 'key -> value' 进行映射
 // `map`的零值是`nil`，`nil map`没有key，也不可以添加key
 // `make`函数返回给定类型的`map`，该`map`已初始化
@@ -11,7 +16,7 @@ import (
 	"fmt"
 )
 
-func basic_map() {
+func basicMap() {
 	type Vertex struct {
 		Lat, Long float64
 	}
@@ -38,7 +43,7 @@ func basic_map() {
 	fmt.Println(y)
 }
 
-func mutating_map() {
+func mutatingMap() {
 	m := make(map[string]int)
 	fmt.Println(m)
 
@@ -62,7 +67,7 @@ func mutating_map() {
 }
 
 func main() {
-	basic_map()
+	basicMap()
 	fmt.Println("------------------------------------------")
-	mutating_map()
+	mutatingMap()
 }

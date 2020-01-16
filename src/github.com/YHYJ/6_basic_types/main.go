@@ -1,4 +1,10 @@
-/* go的基本类型：
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 10:51:29 */
+
+// Description: go的基本类型：
+/*
 bool
 string
 int int8 int16 int32 int64

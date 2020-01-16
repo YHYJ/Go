@@ -1,4 +1,9 @@
-/* 康威的生命游戏 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:37:18 */
+
+// Description: 康威的生命游戏
 
 package main
 
@@ -64,7 +69,8 @@ type Life struct {
 	w, h int
 }
 
-// NextLife returns a new Life game state with a random initial state.
+// NewLife 函数
+// returns a new Life game state with a random initial state.
 func NewLife(w, h int) *Life {
 	a := NewField(w, h)
 	for i := 0; i < (w * h / 4); i++ {

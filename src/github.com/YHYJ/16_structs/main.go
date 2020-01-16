@@ -1,4 +1,9 @@
-/* 数据类型`struct` */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:17:15 */
+
+// Description: 数据类型`struct`
 // 一个结构体是一组字段(field)的集合
 
 package main
@@ -7,7 +12,7 @@ import (
 	"fmt"
 )
 
-// 定义一个结构体
+// Vertex 是一个结构体
 type Vertex struct {
 	A, B int
 	X    uint

@@ -1,4 +1,9 @@
-/* 变量 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 10:20:02 */
+
+// Description: 变量
 // `var` 语句定义变量
 // 在函数中，简洁赋值语句`:=`在类型明确时可以提到`var`进行变量声明
 
@@ -6,17 +11,17 @@ package main
 
 import "fmt"
 
-// 声明变量但不初始化
+// A 变量的声明，不初始化
 var A string
 
 // 声明变量并初始化
-var x int = 1
-var q, t int = 1, 2
+var x = 1
+var q, t = 1, 2
 
 var (
-	a int     = 1
-	b int     = 2
-	c float32 = 3.0
+	a = 1
+	b = 2
+	c = 3.0
 )
 
 /* 短声明变量 */

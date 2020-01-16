@@ -1,4 +1,9 @@
-/* 数据类型`slice` */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:19:16 */
+
+// Description: 数据类型`slice`
 // 每个`slice`都有一个底层数组
 // `slice`不存储任何数据，它只是描述了其底层数组的一部分
 // 更改`slice`的元素对于其底层数组和其他引用是同步的
@@ -23,7 +28,7 @@ func slices() {
 	fmt.Printf("Type(slice1) = %T\n", slice1)
 	fmt.Printf("Value(slice1) = %v\n", slice1)
 	fmt.Printf("len(slice1) = %v\n", len(slice1))
-	struct_slice := []struct {
+	structSlice := []struct {
 		i int
 		b bool
 	}{
@@ -32,13 +37,13 @@ func slices() {
 		{10, true},
 		{7, true},
 	}
-	fmt.Printf("Type(struct_slice) = %T\n", struct_slice)
-	fmt.Printf("Value(struct_slice) = %v\n", struct_slice)
-	fmt.Printf("len(struct_slice) = %v\n", len(struct_slice))
+	fmt.Printf("Type(structSlice) = %T\n", structSlice)
+	fmt.Printf("Value(structSlice) = %v\n", structSlice)
+	fmt.Printf("len(structSlice) = %v\n", len(structSlice))
 }
 
 // 可以对`slice`切片
-func slicing_slices() {
+func slicingSlices() {
 	slice2 := []int{1, 3, 5, 7, 9}
 	fmt.Println("slices2 =", slice2)
 	fmt.Println("slices2[1:3] =", slice2[1:3])
@@ -62,7 +67,7 @@ func slicing_slices() {
 
 // `slice`由函数`make`创建，这会分配一个指定长度的数组并且返回一个`slice`指向这个数组
 // `make`的第3个参数指定容量(cap)，因此限制了`slice`支持的最大切片长度
-func making_slices() {
+func makingSlices() {
 	a := make([]int, 5) // 创建一个`slice`，len = 5，cap默认等于len
 	a[4] = 1            // len = 5，所以最大下标为4
 	fmt.Printf("a = %v -- len=%d, cap=%d\n", a, len(a), cap(a))
@@ -75,7 +80,7 @@ func making_slices() {
 
 // `slice`的零值是`nil` —— 这里指的是`slice`本身的零值，而非`slice`的元素的零值
 // `nil slice`的`len`和`cap`都是0且没有底层数组
-func nil_slice() {
+func nilSlice() {
 	var z []int
 	fmt.Printf("type=%T, len=%d, cap=%d\n", z, len(z), cap(z))
 	if z == nil {
@@ -84,7 +89,7 @@ func nil_slice() {
 }
 
 // 向`slice`添加元素
-func append_slice() {
+func appendSlice() {
 	var a []int
 	fmt.Println(a)
 
@@ -98,11 +103,11 @@ func append_slice() {
 func main() {
 	slices()
 	fmt.Println("-------------------------------")
-	slicing_slices()
+	slicingSlices()
 	fmt.Println("-------------------------------")
-	making_slices()
+	makingSlices()
 	fmt.Println("-------------------------------")
-	nil_slice()
+	nilSlice()
 	fmt.Println("-------------------------------")
-	append_slice()
+	appendSlice()
 }

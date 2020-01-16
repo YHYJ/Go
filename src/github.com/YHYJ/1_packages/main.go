@@ -1,4 +1,9 @@
-/* 包 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-13 14:50:23 */
+
+// Description: 包
 // 每个go程序都是由包组成的
 // 程序运行的入口是包'main'
 // 一个代码文件归属于哪个包由第一行非注释的代码`package <name>`决定，归属于同一个包的文件一般放在同一个文件夹下

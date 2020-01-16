@@ -1,4 +1,9 @@
-/* 数据类型`array` */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:18:35 */
+
+// Description: 数据类型`array`
 // 数组的长度是其类型的一部分，因此数组不能改变大小
 // 伪代码 `array1 := [length]type` 表示：
 // array1是一个数组，该数组有length个元素，元素类型为type

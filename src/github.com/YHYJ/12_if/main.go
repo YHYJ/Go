@@ -1,4 +1,9 @@
-/* if条件判断语句 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:03:25 */
+
+// Description: if条件判断语句
 
 package main
 
@@ -18,11 +23,12 @@ func sqrt(x float64) string {
 // `if`语句卡已在条件中执行一个简单的语句（这里是赋值语句）
 // 由这个语句定义的变量作用域仅在`if`范围内
 func pow(x, n, lim float64) float64 {
-	if v := math.Pow(x, n); v < lim { // math.Pow(x, y float64)返回x的y次方值(float64)
+	v := math.Pow(x, n)
+	if v < lim { // math.Pow(x, y float64)返回x的y次方值(float64)
 		return v
-	} else {
-		fmt.Printf("%g >= %g\n", v, lim)
 	}
+
+	fmt.Printf("%g >= %g\n", v, lim)
 	return lim
 }
 

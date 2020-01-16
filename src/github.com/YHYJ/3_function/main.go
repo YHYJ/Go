@@ -1,4 +1,9 @@
-/* 函数 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 10:15:41 */
+
+// Description: 函数
 // 函数可以有0~N个参数
 
 package main

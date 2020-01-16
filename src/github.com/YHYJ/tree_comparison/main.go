@@ -1,4 +1,9 @@
-/* 二叉树比较 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:44:17 */
+
+// Description: 二叉树比较
 
 // Go's concurrency primitives make it easy to
 // express concurrent concepts, such as

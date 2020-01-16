@@ -1,4 +1,9 @@
-/* range */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:21:20 */
+
+// Description: range
 // `slice`可以对`slice`或`map`进行迭代
 
 package main
@@ -19,7 +24,7 @@ func main() {
 		pov[i] = 1 << uint(i)
 	}
 	fmt.Println(pov)
-	for k, _ := range pov { // 只取`slice`的key
+	for k := range pov { // 只取`slice`的key
 		fmt.Printf("key = %d\n", k)
 	}
 	for _, v := range pov { // 只取`slice`的value

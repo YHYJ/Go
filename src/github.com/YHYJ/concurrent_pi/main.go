@@ -1,4 +1,9 @@
-/* 并发pi计算 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:35:17 */
+
+// Description: 并发pi计算
 
 // Cocurrent computation of pi.
 // See https://goo.gl/la6Kli
