@@ -1,4 +1,9 @@
-/* 闭包 */
+/* File: main.go */
+/* Auther: YJ */
+/* Email: yj1516268@outlook.com */
+/* Created Time: 2020-01-16 15:48:04 */
+
+// Description: 闭包
 // go函数可以闭包
 // 闭包是一个作为返回值的函数，它引用了外部变量
 

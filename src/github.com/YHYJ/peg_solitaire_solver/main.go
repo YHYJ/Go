@@ -14,7 +14,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // N 常量
 const N int = 11 + 1 // length of a row (+1 for \n)

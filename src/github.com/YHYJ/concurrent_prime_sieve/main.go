@@ -9,7 +9,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Generate 函数
 // Send the sequence 2, 3, 4, ... to channel 'ch'.
