@@ -9,7 +9,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // A 变量的声明，不初始化
 var A string
