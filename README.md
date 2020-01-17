@@ -21,6 +21,8 @@ golang basics
 
 ---
 
+[go常用命令](./docs/go-command.md)
+
 ---
 
 ## Wiki
