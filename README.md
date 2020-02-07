@@ -76,9 +76,6 @@ golang basics
 - [go源码库](https://golang.org/pkg)
 
     - [go源码库-标准库(Standard library)](https://golang.org/pkg/#stdlib)
-
     - [go源码库-其他包(Other packages)](https://golang.org/pkg/#other)
-
     - [go源码库-子存储库(Sub-repositories)](https://golang.org/pkg/#subrepo)
-
     - [go源码库-社区(Community)](https://golang.org/pkg/#community)
