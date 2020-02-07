@@ -48,7 +48,7 @@ go常用命令
 
     - `-o`：指定build执行结果的输出位置
 
-        > 强制build指令将生成的可执行文件/对象写入到指定的输出文件/目录，而不是输出到默认文件/目录
+        > 强制build指令将生成的可执行文件/object写入到指定的输出文件/目录，而不是输出到默认文件/目录
         >
         > 如果指定的输出是一个已存在的目录，则生成的所有可执行文件都将写入该目录
 
@@ -56,9 +56,23 @@ go常用命令
 
     - '[build flags]'：**构建标志，由`build`、`clean`、`get`、`install`、`list`、`run`、`test`指令共享**
 
-        - `-a`：强制重建软件包
+- `clean`：删除目标文件
 
-        - `-n`：
+    Usage: go clean [clean flags] [build flags] [packages]
+
+    > 从软件包源目录中删除目标文件
+    >
+    > go在临时目录中构建大多数object，因此clean指令主要用来清除其他工具或者`go build`的手动调用留下的object文件
+    >
+    > 如果给出了软件包参数或者设置了`-i`或`-r`标志，则clean从与导入路径(import paths)相对应的每个源目录中删除一下文件：
+    >
+    > > - _obj/：旧的object目录，Makefile的遗留
+    > > - _test/：旧的test目录，Makefile的遗留
+    > > - 
+    > > - 
+    > > - 
+    > > - 
+    > > - 
 
 - `env`：打印go的变量信息
 

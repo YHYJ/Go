@@ -29,32 +29,6 @@ golang basics
 
 [Go Wiki](https://github.com/golang/go/wiki)
 
-> 目录：
->
-> go入门
->
-> 使用go
->
-> 进一步了解go
->
-> go社区
->
-> 使用go工具链
->
-> 额外的go wiki
->
-> 与go配合使用的在线服务
->
-> 排除go程序故障
->
-> 参与go项目
->
-> 平台信息
->
-> 发行信息
->
-> 问答
-
 ## Awesome
 
 [Awesome Go](https://awesome-go.com)
@@ -89,7 +63,7 @@ golang basics
 
     - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 
-        > go常见错误清单，可以看作是[go语言编程技巧](#go语言编程技巧)
+        > go常见错误清单，可以看作是[go语言编程技巧](#go语言编程技巧)的补充
 
 - [go包文档(Go packages)](https://godoc.org)
 
