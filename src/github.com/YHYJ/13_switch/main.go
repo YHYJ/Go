@@ -4,7 +4,7 @@
 /* Created Time: 2020-01-16 15:14:10 */
 
 // Description: `switch`条件语句
-// go的`switch`语句之运行第一个匹配的`case`，因为go自动在每个`case`后面隐式添加了`break`语句
+// go的`switch`语句只运行第一个匹配的`case`，因为go自动在每个`case`后面隐式添加了`break`语句
 // 除非以`fallthrough`语句结束，否则分支会自动终止
 // go的`switch`的`case`无需为常量，且取值不必为整数
 // 有条件的`switch`根据条件和`case`是否匹配执行相应分支
